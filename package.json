@@ -1,0 +1,24 @@
+{
+  "name": "json-to-keys",
+  "version": "1.0.0",
+  "description": "A simple package that convert a JSON object to an object that contains it's keys",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "start": "nodemon ./src/index.ts"
+  },
+  "keywords": [
+    "JSON"
+  ],
+  "author": "Nam Nguyen",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.181",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
